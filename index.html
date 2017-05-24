@@ -198,15 +198,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 
-<!--
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
--->
+
 
 <h2 id="schedule">Schedule</h2>
 
@@ -245,7 +237,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
--->
+  -->
+
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
